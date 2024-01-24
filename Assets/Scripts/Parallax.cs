@@ -6,7 +6,7 @@ public class Parallax : MonoBehaviour
 {
     [SerializeField]
     private GameObject parallaxTarget;
-    private Rigidbody2D rb2D;
+
 
     [Range(0f, 1f)]
     [SerializeField]
@@ -14,8 +14,7 @@ public class Parallax : MonoBehaviour
 
     
     void Start()
-    {
-        this.rb2D = this.GetComponent<Rigidbody2D>();    
+    {  
     }
 
     void Update()
